@@ -1,0 +1,9 @@
+Given an N x M matrix of ints. Write a search function to find the element
+in the matrix. If found return true, else return false.
+
+Example matrix
+10 20 30 40 50
+15 25 35 45 55
+19 29 39 49 59
+
+Note: N x M matrix, not always square!
