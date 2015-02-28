@@ -1,0 +1,6 @@
+Design the methods hasNext() and getNext() of the Iterator class in Java.
+
+Make the class usable on generics.
+
+Show how you would call on this iterator for an object and iterate
+over the elements in the iterator.
