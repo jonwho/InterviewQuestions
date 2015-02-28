@@ -1,0 +1,44 @@
+Given a fraction A/B (where A and B are positive integers), print the fully
+reduced fraction.
+  
+For example:
+12/15 should be reduced to 3/4. WRONG <<< report to Visa
+206/192
+ 
+Input Format
+The first line contains an integer N, the number of fractions that will follow.
+N lines follow, each containing a fraction provided in the form A/b
+ 
+Input Constraints
+1 <= A, B <= 2000
+1 <= N <= 500
+ 
+Output Format
+The output should contain exactly N lines.
+Each line should contain a reduced fraction corresponding to the inputs, in
+sequential order.
+ 
+Sample Input
+10
+825/1161
+1092/1041
+315/840
+1104/1119
+724/404
+692/176
+208/286
+65/362
+126/151
+270/318
+ 
+Sample Output
+275/387
+364/347
+3/8
+368/373
+181/101
+173/44
+8/11
+65/362
+126/151
+45/53 
