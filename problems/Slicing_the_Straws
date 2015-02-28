@@ -1,0 +1,49 @@
+You have N straws, where the length of each straw is a positive integer. You
+are repeatedly performing slice operations on the straws until you have no
+straws left.
+
+In a slice operation, the length of every straw is reduced by the length of
+the shortest straw.
+
+For example, suppose we have 6 straws of the following length:
+5 4 4 2 2 8
+
+On the first slice operation, we cut length 2 from each straw and remove
+the now-empty straws.
+
+We repeatedly perform slice operations until there are no straws left.
+Given N straws and their lengths, print the number of straws that you cut
+at each slice operation.
+
+Input Format
+The first line contains a single integer N.
+The next line contains N integers: a(0), a(1), ..., a(n - 1) separated by space,
+where a(i) represents the length of i-th straw.
+
+Output Format
+For each slice operation, print the number of straws that are cut in
+separate line.
+
+Constraints
+1 <= N <= 1000
+1 <= a(i) <= 1000
+
+Sample Input #00
+6
+5 4 4 2 2 8
+
+Sample Output #00
+6
+4
+2
+1
+
+Sample Input #01
+8
+1 2 3 4 3 3 2 1
+
+Sample Output #01
+8
+6
+4
+1
