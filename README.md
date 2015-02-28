@@ -1,0 +1,1 @@
+Listing some general software engineering questions and my attempts at answering them.
